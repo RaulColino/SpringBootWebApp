@@ -108,8 +108,10 @@
 	<build>
 		<plugins>
 			<plugin>
+				<!-- Maven plugin to create .jar -->
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<!-- Lombok config -->
 				<configuration>
 					<excludes>
 						<exclude>
